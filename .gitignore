@@ -1,0 +1,26 @@
+# node modules
+node_modules/
+npm-debug.log
+
+# gem bundle
+vendor/bundle
+.bundle/
+Gemfile.lock
+
+# build js, css files
+build/*
+.tmp/*
+
+# css source map file
+*.css.map
+
+# sprite scss file
+*sprite.scss
+bg_sprite.png
+
+# backup file
+*.bak
+*.tmp
+
+# target files/directory
+target/

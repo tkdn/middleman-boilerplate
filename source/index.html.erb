@@ -1,0 +1,21 @@
+---
+title: Welcome to Middleman
+---
+
+<div class="welcome">
+  <div class="logo">
+    <%= image_tag "middleman-logo.svg" %>
+  </div>
+  <h1>Middleman is Running</h1>
+  <p class="doc">
+    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
+  </p><!-- .doc -->
+  <span class="ico-github"></span>
+  <span class="ico-fork"></span>
+  <span class="ico-twitter"></span>
+  <p><%= lorem.date %></p>
+  <p>My name is <%= lorem.first_name %> <%= lorem.last_name %></p>
+  <p>My E-mail is <%= lorem.email %></p>
+  <p><img src="<%= lorem.image('300x400', :background_color => '333', :color => 'fff', :text => 'middleman') %>" alt=""></p>
+  <p><%= lorem.paragraphs 10 %></p>
+</div><!-- .welcome -->

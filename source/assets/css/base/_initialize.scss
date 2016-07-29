@@ -1,0 +1,17 @@
+body {
+  font-family: $base-ff;
+}
+
+#{$prj-ns}-root {
+  width: 100%;
+  font-size: $base-fz;
+  background-color: $base-bg-color;
+  overflow-x: hidden;
+
+  a {
+    color: $theme-color-main;
+    text-decoration: none;
+  }
+
+}
+

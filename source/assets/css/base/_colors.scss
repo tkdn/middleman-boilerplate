@@ -1,0 +1,19 @@
+// Color Setting
+// Color Variables
+// --------------------------------------------------
+
+//== Site Theme Colors
+$theme-color-main: #282e6b;
+$theme-color-base: #fff;
+$theme-color-accent: #f5905f;
+
+$theme-color-main--tone01: lighten($theme-color-main, 20%);
+$theme-color-main--tone02: lighten($theme-color-main, 40%);
+$theme-category-color-xxxxx: blue;
+$theme-category-color-yyyyy: red;
+$theme-category-color-zzzzz: yellow;
+
+//== Base Colors
+$base-bg-color: $theme-color-base;
+$base-font-color: #333;
+

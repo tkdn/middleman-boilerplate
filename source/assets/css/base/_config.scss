@@ -1,0 +1,51 @@
+// Common Config
+// Base Variables
+// --------------------------------------------------
+
+// Bourbon/Neat framework import
+@import "bourbon";
+@import "neat";
+@import "neat-helpers";
+
+// Grid Rule with neat
+$max-width: 1050px  !default;
+$column: 60px !default;
+$gutter: 30px !default;
+
+// Project Namespace
+$prj-ns: '.middleman';
+
+// Font Size Cofing
+$fz-xs: 10;
+$fz-sm: 12;
+$fz-md: 14;
+$fz-lg: 16;
+$fz-xl: 18;
+
+// Line-height Config
+$lh-sm: 1;
+$lh-md: 1.2;
+$lh-lg: 1.5;
+
+//Media Query
+$media-sm: new-breakpoint(max-width 736px);
+
+// Define z-index
+$z-alert-base: 7000;
+$z-modal-base: 6000;
+$z-frame-base: 5000;
+$z-menu-base: 3000;
+
+$z-alert: $z-alert-base + 10;
+$z-alert-overlay: $z-alert-base;
+$z-modal: $z-modal-base + 10;
+$z-modal-overlay: $z-modal-base;
+
+$z-frame: $z-frame-base;
+$z-frame-menu: $z-frame-base + 10;
+$z-dropdown: $z-menu-base;
+
+// Define Base Variables
+$base-fz: $fz-md;
+$base-ff: Arial,Roboto,"Droid Sans","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+$base-lh: $lh-md;
